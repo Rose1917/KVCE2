@@ -1,0 +1,4 @@
+#### can not find 'rg'
+```shell
+sudo apt install ripgrep
+```

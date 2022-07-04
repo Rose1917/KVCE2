@@ -1,0 +1,9 @@
+1
+CONFIG_NAME::CONFIG_DEFCONFIG_LIST
+2
+CONFIG_NAME::CONFIG_CC_VERSION_TEXT
+./linux-5.10.22/init/Makefile
+37:	"$(CONFIG_PREEMPT_RT)" $(CONFIG_CC_VERSION_TEXT) "$(LD)"
+
+./linux-5.10.22/include/linux/kconfig.h
+5:/* CONFIG_CC_VERSION_TEXT (Do not delete this comment. See help in Kconfig) */
